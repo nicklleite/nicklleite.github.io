@@ -1,0 +1,8 @@
+.header {
+	margin-top: 70px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+.color-black { color: black !important; }
+.color-facebook { color: #3b5998 !important; }
