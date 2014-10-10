@@ -1,45 +1,58 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-	<meta charset="UTF-8">
-	<title>Nicholas L. Leite</title>
-	<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/main.css">
-</head>
-<body>
+<html>
+	<head>
+		<title>Nicholas Lopes Leite (@nicklleite)</title>
+		
+		<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="assets/css/prism.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
 
-	<div class="container header">
-		<ul class="nav nav-pills">
-			<li class="active"><a href="#">Home</a></li>
-			<li><a href="#">Profile</a></li>
-			<li><a href="#">Messages</a></li>
-			<li class="pull-right"><a href="#" class="color-facebook"><i class="fa fa-facebook-square fa-3x"></i></a></li>
-			<li class="pull-right"><a href="#" class="color-black"><i class="fa fa-github-square fa-3x"></i></a></li>
-		</ul>
-	</div>
+		<meta name="keywords" content="nicklleite, social, buttons, social buttons, facebook, instagram, reddit, twitter" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta charset="utf-8">
 
-	<div class="container">
-		<h1 class="page-header">Sobre</h1>
-		<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis iste quis tenetur cum atque, similique qui accusantium odio itaque ut neque provident sunt quasi repellat dolorem quia sequi impedit sapiente soluta ad a error magni. Nihil laudantium quis quidem placeat aspernatur laborum natus ducimus aut quaerat voluptatum nam corporis quos unde soluta, quia blanditiis perferendis tempore reiciendis dolores non iusto repudiandae laboriosam! Dicta nobis velit eaque ab, labore nemo neque. Corporis natus nostrum porro iure inventore amet quos doloremque rerum aspernatur dolorum, a ab beatae eveniet, autem sunt aut debitis ipsa cum! Animi dolorum consequatur culpa nobis, quidem, provident soluta!</p>
-	</div>
+	</head>
+	<body>
 
-	<div class="container">
-		<h1 class="page-header">Conhecimentos</h1>
-		<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis iste quis tenetur cum atque, similique qui accusantium odio itaque ut neque provident sunt quasi repellat dolorem quia sequi impedit sapiente soluta ad a error magni. Nihil laudantium quis quidem placeat aspernatur laborum natus ducimus aut quaerat voluptatum nam corporis quos unde soluta, quia blanditiis perferendis tempore reiciendis dolores non iusto repudiandae laboriosam! Dicta nobis velit eaque ab, labore nemo neque. Corporis natus nostrum porro iure inventore amet quos doloremque rerum aspernatur dolorum, a ab beatae eveniet, autem sunt aut debitis ipsa cum! Animi dolorum consequatur culpa nobis, quidem, provident soluta!</p>
-	</div>
+        <div class="container-fluid" id="slide-home">
+            <div class='container'>
+                <pre class='language-php'>
+                    <code class='language-php'>
+/**
+*   Nicholas Lopes Leite
+*   Programador web
+**/
 
-	<div class="container">
-		<h1 class="page-header">Projetos</h1>
-		<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis iste quis tenetur cum atque, similique qui accusantium odio itaque ut neque provident sunt quasi repellat dolorem quia sequi impedit sapiente soluta ad a error magni. Nihil laudantium quis quidem placeat aspernatur laborum natus ducimus aut quaerat voluptatum nam corporis quos unde soluta, quia blanditiis perferendis tempore reiciendis dolores non iusto repudiandae laboriosam! Dicta nobis velit eaque ab, labore nemo neque. Corporis natus nostrum porro iure inventore amet quos doloremque rerum aspernatur dolorum, a ab beatae eveniet, autem sunt aut debitis ipsa cum! Animi dolorum consequatur culpa nobis, quidem, provident soluta!</p>
-	</div>
+&lt;?php
+    
+    $op = $_POST['op'];
 
-	<div class="container">
-		<h1 class="page-header">Contatos</h1>
-		<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis iste quis tenetur cum atque, similique qui accusantium odio itaque ut neque provident sunt quasi repellat dolorem quia sequi impedit sapiente soluta ad a error magni. Nihil laudantium quis quidem placeat aspernatur laborum natus ducimus aut quaerat voluptatum nam corporis quos unde soluta, quia blanditiis perferendis tempore reiciendis dolores non iusto repudiandae laboriosam! Dicta nobis velit eaque ab, labore nemo neque. Corporis natus nostrum porro iure inventore amet quos doloremque rerum aspernatur dolorum, a ab beatae eveniet, autem sunt aut debitis ipsa cum! Animi dolorum consequatur culpa nobis, quidem, provident soluta!</p>
-	</div>
+    switch ( $op ) {
+        case 1:
+            header("Location: quem-sou.html"); //Quem &eacute; esse tal Nicholas?
+            break;
+        case 2:
+            header("Location: curriculo-projetos.html"); //Curr&iacute;culo &amp; Projetos
+            break;
+        default:
+            goto("Entre em contato");
+            break;
+    }
 
-	<script type="text/javascript" language="JavaScript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" language="JavaScript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-</body>
+?&gt;
+                    </code>
+                </pre>
+                <div class='container'></div>
+                <div class='footer'></div>
+            </div>
+        </div>
+        
+
+		<script type="text/javascript" src='https://code.jquery.com/jquery-git2.min.js'></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src='assets/javascript/prism.js'></script>
+
+	</body>
 </html>
