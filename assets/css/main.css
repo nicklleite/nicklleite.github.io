@@ -214,21 +214,10 @@ header .navbar-default .navbar-nav > li > a:active {
     background-color: none !important;
     color: #fff !important;
 }
-header .navbar-default .navbar-nav > li > a:hover,
-header .navbar-default .navbar-nav > li > a:focus {
-    color: white;
-    background-color: #999;
-}
-
 header .navbar-default .navbar-nav > .active > a,
 header .navbar-default .navbar-nav > .active > a:hover,
 header .navbar-default .navbar-nav > .active > a:focus {
-<<<<<<< HEAD
     color: #333 !important;
-=======
-    background-color: none !important;
-    border: none !important;
->>>>>>> origin/master
 }
 header .navbar-default .navbar-brand {
     font-family: 'Playball', cursive;
@@ -276,7 +265,6 @@ header .top-nav-collapse .navbar-nav > li > a {
         font-size: 18px !important;
     }
 }
-<<<<<<< HEAD
 
 /*-- Profile */
 .profile {
@@ -287,5 +275,3 @@ header .top-nav-collapse .navbar-nav > li > a {
 }
 
 /*-- Footer */
-=======
->>>>>>> origin/master
