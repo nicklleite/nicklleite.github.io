@@ -310,7 +310,7 @@ footer .copyright {
        -moz-transition: color .2s ease-in-out;
             transition: color .2s ease-in-out;
 }
-.facebook:hover, .twitter:hover, .github:hover {
+.facebook:hover, .twitter:hover, .github:hover, .email:hover {
     text-decoration: none;
 }
 .facebook:hover {
@@ -321,6 +321,9 @@ footer .copyright {
 }
 .github:hover {
     color: #000000;
+}
+.email:hover {
+    color: #999;
 }
 
 /*-- Bootstrap - Custom */
