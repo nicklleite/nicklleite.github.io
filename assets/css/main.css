@@ -313,16 +313,24 @@ footer .copyright {
 .facebook:hover, .twitter:hover, .github:hover, .email:hover {
     text-decoration: none;
 }
-.facebook:hover {
+.facebook:hover,
+.facebook:active,
+.facebook:focus {
     color: #3b5897;
 }
-.twitter:hover {
+.twitter:hover,
+.twitter:active,
+.twitter:focus {
     color: #00aceb;
 }
-.github:hover {
+.github:hover,
+.github:active,
+.github:focus {
     color: #000000;
 }
-.email:hover {
+.email:hover,
+.email:active,
+.email:focus {
     color: #999;
 }
 
