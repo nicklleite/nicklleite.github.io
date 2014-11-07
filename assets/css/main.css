@@ -306,6 +306,9 @@ footer .copyright {
     color: white;
     text-decoration: none;
     margin: 20px;
+    -webkit-transition: color .2s ease-in-out;
+       -moz-transition: color .2s ease-in-out;
+            transition: color .2s ease-in-out;
 }
 .facebook:hover, .twitter:hover, .github:hover {
     text-decoration: none;
