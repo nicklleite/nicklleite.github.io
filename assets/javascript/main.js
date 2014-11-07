@@ -8,14 +8,6 @@ $(document).ready(function(){
         }
     });
 
-    /*-- Mosaico */
-    /*var msnry = new Masonry( '.mosaic', {
-        columnWidth: 380,
-        itemSelector: '.item',
-        isFitWidth: false,
-        gutterWidth: 20
-    }).masonry('reload');*/
-
     $('header').each(function(){
         var $obj = $(this);
          
@@ -35,14 +27,6 @@ $(document).ready(function(){
         $(".navbar-collapse").removeClass("in");
         event.preventDefault();
     });
-
-    //Calculando minha idade atual.
-    var dt_nascimento = new Date(1991,10,31);
-    var hoje = new Date();        
-
-    var dayDiff = Math.ceil(hoje.getTime() - dt_nascimento.getTime()) / (1000 * 60 * 60 * 24 * 365);
-    var idade = parseInt(dayDiff);
-    $('.idade-atual').html(idade);
 
 });
 
