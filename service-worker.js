@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.c31df16799d94d49f896f7237511ad25.js"
+  "/precache-manifest.de9d6e344265d6793f26fdfc84b5d7b7.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "nicklleite.github.com"});
