@@ -1,8 +1,8 @@
 # Hi, this is my CV
 
 Hey there! Glad you came. My name is Nicholas and I'm full stack web developer
-focusing on Back-End development. from Ribeirão Preto, São Paulo, Brazil, South
-America, Earth...
+focusing on Back-End development. I'm from Ribeirão Preto, São Paulo, Brazil,
+South America, Earth...
 
 I have worked professionally since 2013, using PHP as my main programming
 language. Since then, I've been working on several companies, developing
@@ -13,7 +13,8 @@ friendly.
 Information and content management are my passion now. And I know I can do a
 great job on this!
 
-Make yourself at home and feel free to see my repositories and follow me at [@nicklleite](https://twitter.com/nicklleite "Twitter / nicklleite")!
+Make yourself at home and feel free to see my repositories and follow me at
+[@nicklleite](https://twitter.com/nicklleite "Twitter / nicklleite")!
 
 ---
 
