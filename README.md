@@ -1,9 +1,10 @@
 # Hi, this is my CV
 
 Hey there! Glad you came. My name is Nicholas and I'm web developer from Ribeirão
-Preto, São Paulo, Brazil, South America, Earth...
+Preto, São Paulo, Brazil, South America, Earth... Focusing on Back-End
+development.
 
-Focusing on Back-End development. As a professional I work since 2013, beeing
+As a professional I work since 2013, beeing
 PHP my main programming language. Since then, I've been working on several
 companies, developing websites, web systems for content and information
 management. On my personal projects, I'm focusing on making information and
