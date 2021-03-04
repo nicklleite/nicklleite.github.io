@@ -1,14 +1,13 @@
 # Hi, this is my CV
 
-Hey there! Glad you came. My name is Nicholas and this is the ICM (Yeah yeah, I
-know... i'm not good with cool software names). I'm web developer from Ribeirão
+Hey there! Glad you came. My name is Nicholas and I'm web developer from Ribeirão
 Preto, São Paulo, Brazil, South America, Earth...
 
-I'm a web developer focusing on Back-End development. As a professional I work
-since 2013, beeing PHP my main programming language. Since then, I've been
-working on several companies, developing websites, web systems for content and
-information management. On my personal projects, I'm focusing on making
-information and content management more human friendly.
+Focusing on Back-End development. As a professional I work since 2013, beeing
+PHP my main programming language. Since then, I've been working on several
+companies, developing websites, web systems for content and information
+management. On my personal projects, I'm focusing on making information and
+content management more human friendly.
 
 Information and content management are my passion now. And I know I can do a
 great job on this!
