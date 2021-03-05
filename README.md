@@ -89,3 +89,20 @@ MariaDB [(nicholas)]> SELECT * FROM skills;
 
 MariaDB [(nicholas)]>
 ```
+
+## Hobbies
+```javascript
+[
+    {
+        "games": [
+            "World of Warcraft", "Diablo II", "Racing games"
+        ],
+        "music": [
+            "Play Drums", "Listen to Prog Rock", "Podcasts"
+        ],
+        "others": [
+            "Tv Shows & Movies (Netflix, Amazon...)", "Taking landscape photos"
+        ]
+    }
+]
+```
