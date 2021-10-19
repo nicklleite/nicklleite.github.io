@@ -24,6 +24,11 @@ Make yourself at home and feel free to see my repositories and follow me at
 <?php
     $n = new stdClass();
     $n->experiences = [
+        "Apr_2021|" . date("m_Y") => [
+            "job_position" => "Full Stack Developer @ Etus",
+            "technologies" => "PHP (Laravel) | SQL/noSQL | HTML | CSS | JavaScript | Vue.JS | Bootstrap | PHPUnit | Bitbucket"
+        ],
+        
         "Jul_2019|Aug_2020" => [
             "job_position" => "Full Stack Developer @ Alta Comunicazione",
             "technologies" => "PHP (Laravel/Codeigniter) | MySQL | HTML | CSS | JavaScript | jQuery | Bootstrap | Gulp | Git | Bitbucket"
@@ -33,11 +38,8 @@ Make yourself at home and feel free to see my repositories and follow me at
             "job_position" => "Jr. Java Developer @ Compliance Fiscal",
             "technologies" => "Java | JSF | JPA | jBoss | iReport | SVN"
         ],
-
-        "May_2013|Jun_2015" => [
-            "job_position" => "Web Developer @ Economic Development Company of Ribeirao Preto",
-            "technologies" => "PHP 5 | PostgreSQL | HTML | CSS | JavaScript | jQuery | Bootstrap | Java | JSF | JPA | SVN"
-        ]
+        
+        // ...
     ];
 ?>
 ```
@@ -85,6 +87,11 @@ MariaDB [(nicholas)]> SELECT * FROM skills;
 +----+----------------+
 | 12 | Lumen          |
 +----+----------------+
+| 13 | PHPUnit        |
++----+----------------+
+| 14 | DynamoDB       |
++----+----------------+
+
 12 rows in set (0.069 sec)
 
 MariaDB [(nicholas)]>
