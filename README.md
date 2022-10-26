@@ -24,19 +24,29 @@ Make yourself at home and feel free to see my repositories and follow me at
 <?php
     $n = new stdClass();
     $n->experiences = [
-        "Apr_2021|" . date("m_Y") => [
-            "job_position" => "Full Stack Developer @ Etus",
-            "technologies" => "PHP (Laravel) | SQL/noSQL | HTML | CSS | JavaScript | Vue.JS | Bootstrap | PHPUnit | Bitbucket"
+        "Aug_2022|Oct_2022" => [
+            "job_position" => "Fullstack Web Developer @ SimplyPHP",
+            "technologies" => "PHP (Laravel) | MySQL | HTML | CSS | JavaScript | Vue.JS | PHPUnit | Bitbucket"
+        ],
+        
+        "Apr_2021|Aug_2022" => [
+            "job_position" => "Fullstack Web Developer @ Etus",
+            "technologies" => "PHP (Laravel) | MySQL | DynamoDB | HTML | CSS | JavaScript | Vue.JS | Bootstrap | PHPUnit | Bitbucket"
         ],
         
         "Jul_2019|Aug_2020" => [
-            "job_position" => "Full Stack Developer @ Alta Comunicazione",
+            "job_position" => "Fullstack Web Developer @ Alta Comunicazione",
             "technologies" => "PHP (Laravel/Codeigniter) | MySQL | HTML | CSS | JavaScript | jQuery | Bootstrap | Gulp | Git | Bitbucket"
         ],
 
-        "Jul_2015|Oct_2017" => [
-            "job_position" => "Jr. Java Developer @ Compliance Fiscal",
-            "technologies" => "Java | JSF | JPA | jBoss | iReport | SVN"
+        "Jul_2018|Dec_2018" => [
+            "job_position" => "Fullstack Web Developer @ Adekz Tecnologia",
+            "technologies" => "PHP | MySQL | HTML | CSS | JavaScript | Vue.js"
+        ],
+        
+        "May_2013|Jun_2015" => [
+            "job_position" => "Fullstack Web Developer @ CODERP",
+            "technologies" => "PHP | PostgreSQL | HTML | CSS | JavaScript | jQuery | Bootstrap"
         ],
         
         // ...
@@ -81,15 +91,21 @@ MariaDB [(nicholas)]> SELECT * FROM skills;
 +----+----------------+
 |  9 | JavaScript     |
 +----+----------------+
-| 10 | Bootstrap      |
+| 10 | Vue.JS         |
 +----+----------------+
-| 11 | Gulp           |
+| 11 | Bootstrap      |
 +----+----------------+
-| 12 | Lumen          |
+| 12 | Gulp           |
 +----+----------------+
-| 13 | PHPUnit        |
+| 13 | Lumen          |
 +----+----------------+
-| 14 | DynamoDB       |
+| 14 | PHPUnit        |
++----+----------------+
+| 15 | Pest           |
++----+----------------+
+| 16 | DynamoDB       |
++----+----------------+
+| 17 | Docker         |
 +----+----------------+
 
 12 rows in set (0.069 sec)
