@@ -24,6 +24,14 @@ Make yourself at home and feel free to see my repositories and follow me at
 <?php
     $n = new stdClass();
     $n->experiences = [
+        "Sep_2024" => [
+            "job_position" => "Fullstack Web Developer @ Voomp Creators (via Soluevo)",
+            "technologies" => "PHP (Laravel) | MySQL | HTML | CSS | JavaScript | Vue.JS | PHPUnit | Azure Devops (for git operations)"
+        ],
+        "Dec_2022|May_2024" => [
+            "job_position" => "Fullstack Web Developer @ Plugg.to",
+            "technologies" => "PHP (Laravel) | MySQL | HTML | CSS | JavaScript | Vue.JS | PHPUnit | Bitbucket"
+        ],
         "Aug_2022|Oct_2022" => [
             "job_position" => "Fullstack Web Developer @ SimplyPHP",
             "technologies" => "PHP (Laravel) | MySQL | HTML | CSS | JavaScript | Vue.JS | PHPUnit | Bitbucket"
